@@ -10,3 +10,7 @@ services:
         value: https://n8n-luis-32ki.onrender.com
       - key: PORT
         value: 443
+      - key: N8N_PORT
+        value: 443
+      - key: N8N_HOST
+        value: n8n-luis-32ki.onrender.com

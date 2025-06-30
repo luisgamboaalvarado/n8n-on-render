@@ -8,3 +8,5 @@ services:
     envVars:
       - key: WEBHOOK_TUNNEL_URL
         value: https://n8n-luis-32ki.onrender.com
+      - key: PORT
+        value: 443

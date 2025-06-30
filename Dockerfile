@@ -7,4 +7,3 @@ ENV WEBHOOK_TUNNEL_URL=https://n8n-luis-32ki.onrender.com
 
 ENV N8N_PORT=443
 EXPOSE 443
-

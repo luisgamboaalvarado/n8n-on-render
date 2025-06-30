@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: n8n-luis
+    env: docker
+    plan: free
+    autoDeploy: true
+    envVars:
+      - key: N8N_BASIC_AUTH_USER
+        value: luis
+      - key: N8N_BASIC_AUTH_PASSWORD
+        value: tusegura123
+      - key: N8N_PORT
+        value: 5678
+   
